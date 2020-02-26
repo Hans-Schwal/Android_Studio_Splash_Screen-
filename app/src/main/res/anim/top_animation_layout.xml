@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    // La méthode translate prend deux paramètres: en X le départ de l'animation (ici du haut), en Y sa durée (ici 2 secondes).
+    <translate
+        android:fromXDelta="0%"
+        android:fromYDelta="-100%"
+        android:duration="2000"/>
+    // Alpha contrôle la transparence. Ici nous partons avec un coefficient de 0,1 pour arriver à 1 (visible) en 1,5 secondes.
+    <alpha
+        android:fromAlpha="0.1"
+        android:toAlpha="1.0"
+        android:duration="1500"/>
+</set>
